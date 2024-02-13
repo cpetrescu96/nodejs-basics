@@ -20,7 +20,7 @@ const decompress = async () => {
     } catch (error) {
         console.error(error.message);
     } finally {
-        console.log('File decompressed successfully!');
+        console.log('File decompressed successfully to original form!');
     }
 
 };
