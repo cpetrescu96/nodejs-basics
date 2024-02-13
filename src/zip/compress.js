@@ -19,6 +19,8 @@ const compress = async () => {
         compressFile();
     } catch (error) {
         console.error(error.message);
+    } finally {
+        console.log('File compressed successfully to Gzip!');
     }
 
 };
