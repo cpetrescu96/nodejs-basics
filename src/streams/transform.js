@@ -20,7 +20,7 @@ const transform = async () => {
         
         rl.question('============= Please enter some text - ', (answer) => {
             const string = String(answer).trim();
-            reverseTransform.write(answer);
+            reverseTransform.write(string);
             rl.close();
         });
 
